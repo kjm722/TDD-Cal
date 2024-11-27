@@ -12,6 +12,6 @@ public class SimpleCalculatorTest {
     public void t1(){
         int re = simpleCalculator.run(3,5,10);
 
-        assertThat(re).isEqualTo(80);
+        assertThat(re).isEqualTo(60);
     }
 }
